@@ -59,9 +59,9 @@ export default function ResourcesPage() {
             Competition Strategy
           </h2>
           <ul className="text-viking-red space-y-2 text-sm font-medium">
-            <li>• Game manual analysis</li>
-            <li>• Autonomous scoring planning</li>
-            <li>• Driver practice routines</li>
+            <li>• Game manual</li>
+            <li>• Autonomous strats</li>
+            <li>• Driver practice</li>
           </ul>
         </div>
 
