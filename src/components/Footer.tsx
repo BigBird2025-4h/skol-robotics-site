@@ -11,14 +11,8 @@ export default function Footer() {
         </p>
 
         <div className="mt-4 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm font-accent tracking-wide">
-          <Link href="/blog" className="hover:text-viking-red transition-colors">
-            Blog
-          </Link>
           <Link href="/portfolio" className="hover:text-viking-red transition-colors">
             Portfolio
-          </Link>
-          <Link href="/socials" className="hover:text-viking-red transition-colors">
-            Socials
           </Link>
           <Link href="/contact" className="hover:text-viking-red transition-colors">
             Contact
