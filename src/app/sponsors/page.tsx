@@ -6,8 +6,7 @@ export default function SponsorsPage() {
       </h1>
 
       <p className="text-ink/80 max-w-2xl mb-10 font-medium">
-        Skol Robotics is proudly supported by our sponsors. Your support
-        helps us build, compete, and grow — thank you!
+        Skol Robotics is proudly supported by our sponsors. 
       </p>
 
       {/* Sponsor Grid — placeholder tiles */}
@@ -29,10 +28,6 @@ export default function SponsorsPage() {
           <span className="text-viking-red">Sponsorship</span>
           <span className="text-steel-dark"> Levels</span>
         </h2>
-        <p className="text-ink/60 text-sm mb-8 font-medium">
-          Example tiers — update names, amounts, and perks to match your
-          team&apos;s sponsorship packet.
-        </p>
 
         <div className="grid gap-6 md:grid-cols-2">
           <div className="crest-panel rivets p-6">
@@ -64,7 +59,7 @@ export default function SponsorsPage() {
 
           <div className="crest-panel rivets p-6">
             <h3 className="font-display font-bold text-lg text-ink mb-2 tracking-wide">
-              Chieftain
+              pillager
             </h3>
             <p className="text-steel-dark font-bold mb-4 font-accent tracking-wide">
               $1,000+
@@ -81,7 +76,7 @@ export default function SponsorsPage() {
             style={{ borderColor: "var(--color-viking-red)" }}
           >
             <h3 className="font-display font-bold text-lg text-ink mb-2 tracking-wide">
-              Jarl
+              Berserker
             </h3>
             <p className="text-viking-red font-bold mb-4 font-accent tracking-wide">
               $2,500+
