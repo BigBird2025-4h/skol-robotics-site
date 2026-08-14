@@ -104,7 +104,6 @@ export default function SponsorsPage() {
           Become a Sponsor
         </a>
         <p className="text-ink/50 text-xs mt-3 font-medium">
-          (Placeholder email — swap in your team&apos;s real contact address)
         </p>
       </div>
     </div>
