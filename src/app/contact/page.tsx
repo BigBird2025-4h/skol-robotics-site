@@ -26,9 +26,6 @@ export default function Contact() {
       >
         Email Us
       </a>
-      <p className="text-ink/50 text-xs mt-3 font-medium">
-        big red button
-      </p>
     </div>
   );
 }
