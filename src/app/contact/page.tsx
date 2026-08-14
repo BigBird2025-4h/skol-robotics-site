@@ -6,21 +6,17 @@ export default function Contact() {
       </h1>
 
       <p className="text-ink/80 mb-6 font-medium">
-        Reach out for sponsorships, collaboration, or questions. We&apos;d
-        love to hear from you!
+        Reach out for sponsorships, collaboration, or questions
       </p>
 
       <p className="text-ink/80 mb-6 font-medium">
-        Interested in joining? Fill out our interest form{" "}
+        Interested in joining? fill out our interest form{" "}
         <a
           href="#"
           className="text-steel-dark hover:text-viking-red underline"
         >
           here
         </a>{" "}
-        <span className="text-ink/50 text-sm">
-          (placeholder — link your real sign-up form)
-        </span>
         .
       </p>
 
@@ -31,7 +27,7 @@ export default function Contact() {
         Email Us
       </a>
       <p className="text-ink/50 text-xs mt-3 font-medium">
-        (Placeholder email — swap in your team&apos;s real contact address)
+        big red button
       </p>
     </div>
   );
