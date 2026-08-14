@@ -48,7 +48,7 @@ export default function ResourcesPage() {
                 href="https://github.com"
                 className="text-steel-dark hover:text-viking-red underline"
               >
-                Placeholder — link your GitHub org
+              Team github
               </a>
             </li>
           </ul>
