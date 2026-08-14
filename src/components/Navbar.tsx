@@ -4,11 +4,9 @@ import Image from "next/image";
 const links = [
   { href: "/", label: "Home" },
   { href: "/history", label: "Team History" },
-  { href: "/blog", label: "Blog" },
   { href: "/portfolio", label: "Portfolio" },
   { href: "/resources", label: "Resources" },
   { href: "/sponsors", label: "Sponsors" },
-  { href: "/socials", label: "Socials" },
   { href: "/contact", label: "Contact" },
 ];
 
