@@ -6,18 +6,16 @@ export default function PortfolioPage() {
       </h1>
 
       <p className="text-ink/80 mb-10 max-w-2xl font-medium">
-        Our robotics builds, engineering documentation, and software systems
-        developed for FIRST Robotics Competition.
+        not sure what else to put lol
       </p>
 
       <div className="grid md:grid-cols-2 gap-6">
         <div className="crest-panel rivets p-6 crest-shadow-red transition hover:-translate-y-1">
           <h2 className="font-display font-bold text-lg text-viking-red mb-2 tracking-wide">
-            Robot Reveal
+            Robot
           </h2>
           <p className="text-ink/80 text-sm font-medium">
-            Placeholder — add photos, specs, and a walkthrough of this
-            season&apos;s robot here.
+            some stuff
           </p>
         </div>
 
@@ -26,8 +24,7 @@ export default function PortfolioPage() {
             Engineering Notebook
           </h2>
           <p className="text-ink/80 text-sm font-medium">
-            Placeholder — link your team&apos;s engineering notebook or CAD
-            portfolio here.
+            portfolio link
           </p>
         </div>
 
@@ -36,12 +33,11 @@ export default function PortfolioPage() {
             Code / GitHub
           </h2>
           <p className="text-ink/80 text-sm font-medium">
-            Placeholder —{" "}
+            Code / github{" "}
             <a
-              href="https://github.com"
+              href="https://github.com/orgs/Skol-9073/dashboard"
               className="text-steel-dark hover:text-viking-red underline"
             >
-              link your team&apos;s GitHub organization here
             </a>
             .
           </p>
@@ -52,8 +48,7 @@ export default function PortfolioPage() {
             Awards
           </h2>
           <p className="text-ink/80 text-sm font-medium">
-            Placeholder — list competition awards and recognitions here as
-            you earn them.
+            awards
           </p>
         </div>
       </div>
