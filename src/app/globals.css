@@ -1,14 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  /* Core palette — Viking crest, drawn from the team badge */
   --color-viking-red: #c8262c;
   --color-steel-silver: #b8bcc0;
   --color-steel-dark: #4a4e54;
   --color-ink: #1a1a1a;
   --color-parchment: #f3efe6;
 
-  /* Derived shades for depth, shadows, pressed states */
   --color-parchment-dark: #e6ddc8;
   --color-red-dark: #8f1a1f;
   --color-silver-dark: #8b9096;
@@ -41,16 +39,13 @@ body {
   font-family: var(--font-body), Arial, Helvetica, sans-serif;
 }
 
-/* ============ TEXTURE SYSTEM ============ */
 
-/* Subtle hammered-metal / parchment grain */
 .grain-overlay {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
   mix-blend-mode: multiply;
   opacity: 0.12;
 }
 
-/* Carved shield panel — double border like a riveted armor plate */
 .crest-panel {
   background-color: var(--color-parchment);
   border: 3px solid var(--color-ink);
@@ -61,7 +56,6 @@ body {
     inset 0 0 0 5px var(--color-steel-dark);
 }
 
-/* Small rivet dots at panel corners */
 .rivets::before,
 .rivets::after {
   content: "";
@@ -79,7 +73,6 @@ body {
   right: 10px;
 }
 
-/* Flat offset "engraved" shadow instead of soft blur */
 .crest-shadow {
   box-shadow: 5px 5px 0 0 var(--color-ink);
 }
@@ -90,7 +83,6 @@ body {
   box-shadow: 5px 5px 0 0 var(--color-silver-dark);
 }
 
-/* Nordic knot-style divider, drawn with borders — simple, generic geometric motif */
 .rune-divider {
   width: 64px;
   height: 16px;
@@ -104,8 +96,6 @@ body {
   border-top: 3px solid var(--color-viking-red);
   border-radius: 999px;
 }
-
-/* ============ MOTION ============ */
 
 @keyframes blink {
   0%, 49% { opacity: 1; }
