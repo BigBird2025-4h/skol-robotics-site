@@ -21,7 +21,7 @@ export default function Contact() {
       </p>
 
       <a
-        href="mailto:skolrobotics9073@example.com"
+        href="mailto:___" //<put our email here
         className="inline-block px-6 py-3 rounded-lg border-[3px] border-ink bg-viking-red text-parchment font-display font-bold text-sm tracking-wide crest-shadow hover:-translate-y-0.5 transition-transform"
       >
         Email Us
