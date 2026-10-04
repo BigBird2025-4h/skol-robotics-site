@@ -12,7 +12,7 @@ export default function Contact() {
       <p className="text-ink/80 mb-6 font-medium">
         Interested in joining? fill out our interest form{" "}
         <a
-          href="#"
+          href="#" //<this is where our form goes
           className="text-steel-dark hover:text-viking-red underline"
         >
           here
